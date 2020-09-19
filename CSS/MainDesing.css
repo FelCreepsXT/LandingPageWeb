@@ -1,0 +1,197 @@
+@font-face{
+    font-family: font1;
+    src: url("Font/SourceSansPro-Black.otf");
+}
+
+@font-face{
+    font-family: font2;
+    src: url("Font/OpenSans-Light.ttf");
+}
+
+@font-face{
+    font-family: font3;
+    src: url("Font/BoiledHedgehog.ttf");
+}
+
+.Center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Middle{
+    position: relative; 
+    bottom: 5px; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.BoxPage{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+#MainBox{
+    margin-top: 100px;
+    width: 1000px;
+    height: 2000px;
+}
+
+#TopBox{
+    width: 100%;
+    height: 124px;
+}
+
+#DUserPage{
+    float: left;
+}
+
+#DTransportPage{
+    float: right;
+}
+
+#Icon{
+    float: left;
+    margin-top: -160px;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: rgb(214, 250, 255);
+    border: 2px solid rgba(0, 80, 117, 0.753);
+}
+
+.h2ClassSelect{
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid rgba(91, 203, 255, 0.753);
+    font-size: 24px;
+    color: rgb(31, 121, 255);
+}
+
+#h2SelectLeft:hover{
+    font-weight: bold;
+    background-image: url("IMG/BuscarIzquierda.png");
+    cursor: pointer;
+}
+
+#h2SelectRight:hover{
+    font-weight: bold;
+    background-image: url("IMG/BuscarDerecha.png");
+    cursor: pointer;
+}
+
+#DescriptionBox{
+    margin-top: -20px;
+    height: 550px;
+    width: 100%;
+    border: 2px solid rgb(141, 223, 255);
+    border-bottom: 0px;
+}
+
+#PromoBox{
+    width: 100%;
+    border: 2px solid rgb(141, 223, 255);    
+}
+
+#ImagenDescriptionBox{
+    float: left;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    margin-left: -100px;
+}
+
+#TextDescriptionBox{
+    float: left;
+    width: 470px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.StyleH1DescriptionBox{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: font3;
+    color: rgb(64, 185, 255);
+}
+
+.StyleH2DescriptionBox{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(30, 138, 189);
+}
+
+#Social{
+    width: 100%;
+    height: 250px;
+}
+
+#CopyRight{
+    width: 100%;
+    height: 70px;
+}
+
+.Carousel{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 800px;
+    background-color: rgb(190, 253, 255);
+}
+
+#ImagePromoBox{
+    padding-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+#TittlePromoBox{
+    margin-top: 20px;
+    width: 450px;
+    height: 150px;
+}
+
+#DescripPromoBox{
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+#BehindPromoBox{
+    padding-top: 1px;
+    margin-top: 50px;
+    width: 690px;
+    height: 840px;
+    background-color: rgb(128, 208, 255);
+    margin-bottom: 10px;
+}
+
+#H1TittlePromoBox{
+    font-family: 'font1';
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(35, 70, 187);
+}
+
+#H2DescripPromoBox{
+    font-family: 'font2';
+    text-align: center;
+    font-size: 20px;
+    color: rgb(56, 135, 255);
+}
+
+#SocialStyle{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
